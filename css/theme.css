@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Lato:wght@400;900&family=Open+Sans&display=swap");
+
+:root {
+  --theme-color: #f0423c;
+  --main-gray: #999999;
+  --black: #131313;
+  --white: #ffffff;
+  --heading-font: "Exo", sans-serif;
+  --content-font: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+body{
+    font-family: var(--content-font);
+}

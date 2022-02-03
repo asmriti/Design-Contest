@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1203px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--theme-color);
+}

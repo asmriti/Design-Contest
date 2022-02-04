@@ -134,3 +134,14 @@ ul li {
 .class {
   text-align: center;
 }
+
+.fa-coffee,
+.fa-tv,
+.fa-sticky-note {
+  color: var(--main-gray);
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+
+

@@ -59,13 +59,78 @@ h2 {
   text-align: center;
   margin-top: 30px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
-
 .paragraph {
   text-align: center;
   margin-top: 15px;
 }
 
-p{
+h4 {
   text-transform: uppercase;
+  font-size: large;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.designs {
+  border: 1px solid var(--main-gray);
+  margin: 10px auto;
+  font-size: large;
+  padding: 30px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* p{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}*/
+
+.number li {
+  color: var(--white);
+}
+
+.number {
+  text-align: center;
+}
+.numbers {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contest {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.black {
+  background-color: var(--black);
+}
+
+.number {
+  display: inline-block;
+  padding: 72px;
+  margin-top: 20px;
+}
+
+.red {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.class {
+  text-align: center;
 }

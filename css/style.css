@@ -61,20 +61,11 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
+.paragraph {
   text-align: center;
   margin-top: 15px;
 }
 
-.logo-design span {
+p{
   text-transform: uppercase;
-  margin-top: 30px;
-}
-.logo-design {
-  border: 1px solid var(--main-gray);
-  margin-top: 20px;
-  padding: 20px;
-}
-.gray-line {
-  margin-top: 30px;
 }

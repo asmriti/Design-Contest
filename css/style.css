@@ -118,13 +118,18 @@ ul li {
 
 .black {
   background-color: var(--black);
+  padding: 70px;
 }
 
-.number {
-  display: inline-block;
-  padding: 72px;
-  margin-top: 20px;
+.black__theme {
+  display: flex;
+  justify-content: space-around;
 }
+
+/* .video{
+  display: flex;
+  flex-wrap: nowrap;
+} */
 
 .red {
   text-align: center;
@@ -143,5 +148,56 @@ ul li {
   margin-top: 15px;
 }
 
+.arrows {
+  display: flex;
+  justify-content: end;
+}
+.video-image {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.graphics__photos {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.testimoial__paragraph-theme {
+  text-align: center;
+}
 
+.arrow-icons {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+.ads__images {
+  display: flex;
+  margin-top: 50px;
+  max-width: 100%;
+  margin-left: 20px;
+}
+
+.dollar {
+  color: var(--theme-color);
+}
+
+.emailbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.email {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#email {
+  border: 1px solid #eeeeee;
+  padding: 9px;
+}
+
+.submit {
+  border-bottom: 3px solid var(--theme-color);
+  padding: 20px;
+}

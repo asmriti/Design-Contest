@@ -69,6 +69,11 @@ h2 {
 h4 {
   text-transform: uppercase;
   font-size: large;
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 15px;
 }
 
 h5 {
@@ -87,6 +92,11 @@ h5 {
 
 ul li {
   list-style: none;
+}
+
+.graphics__image {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* p{
@@ -126,14 +136,13 @@ ul li {
   justify-content: space-around;
 }
 
-/* .video{
-  display: flex;
-  flex-wrap: nowrap;
-} */
-
 .red {
   text-align: center;
   margin-bottom: 15px;
+}
+
+.red-line {
+  margin-top: 15px;
 }
 
 .class {
@@ -148,14 +157,10 @@ ul li {
   margin-top: 15px;
 }
 
-.arrows {
-  display: flex;
-  justify-content: end;
-}
 .video-image {
-  display: flex;
-  flex-wrap: nowrap;
+  margin-top: 15px;
 }
+
 .graphics__photos {
   display: flex;
   flex-wrap: wrap;
@@ -163,6 +168,30 @@ ul li {
 
 .testimoial__paragraph-theme {
   text-align: center;
+}
+
+.testimonial__fparagraph,
+.testimonial__sparagraph {
+  background-image: url(../images/testimonial.png);
+  padding: 30px;
+  margin: 25px;
+
+  text-align: center;
+}
+
+.testimonial__container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.writer {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.rating {
+  margin-top: 15px;
 }
 
 .arrow-icons {
@@ -173,9 +202,9 @@ ul li {
 
 .ads__images {
   display: flex;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 50px 0 20px 20px;
   max-width: 100%;
-  margin-left: 20px;
 }
 
 .dollar {
@@ -187,17 +216,72 @@ ul li {
   justify-content: flex-end;
 }
 
-.email {
+.submit {
   display: flex;
   flex-wrap: nowrap;
 }
 
 #email {
   border: 1px solid #eeeeee;
-  padding: 9px;
+  padding: 20px;
+  margin-left: 10px;
 }
 
 .submit {
   border-bottom: 3px solid var(--theme-color);
   padding: 20px;
+}
+
+.fa-star {
+  color: var(--theme-color);
+}
+
+.gray-star {
+  color: var(--main-gray);
+}
+
+.fa-caret-right {
+  color: var(--main-gray);
+}
+
+.final__lists ul li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--main-gray);
+}
+
+.final__header {
+  display: inline-block;
+}
+
+.final-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navmenu__flex {
+  display: flex;
+}
+
+.copyright {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+@media (max-width: 420px) {
+  .black__theme {
+    display: block;
+  }
+  .graphics__photos {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .ads__images {
+    display: block;
+    text-align: center;
+  }
+
+  .ads__partners {
+    padding: 20px;
+  }
 }

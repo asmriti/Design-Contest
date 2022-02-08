@@ -82,13 +82,13 @@ h5 {
   margin-top: 30px;
 }
 
-.designs {
+/* .designs {
   border: 1px solid var(--main-gray);
   margin: 10px auto;
   font-size: large;
   padding: 30px;
   text-align: center;
-}
+} */
 
 ul li {
   list-style: none;
@@ -141,6 +141,10 @@ ul li {
   margin-bottom: 15px;
 }
 
+/* .designs ul{
+  display: flex;
+} */
+
 .red-line {
   margin-top: 15px;
 }
@@ -159,6 +163,7 @@ ul li {
 
 .video-image {
   margin-top: 15px;
+  max-width: 100%;
 }
 
 .graphics__photos {
@@ -179,10 +184,10 @@ ul li {
   text-align: center;
 }
 
-.testimonial__container {
+/* .testimonial__container {
   display: flex;
   flex-wrap: nowrap;
-}
+} */
 
 .writer {
   font-weight: bold;
@@ -244,6 +249,17 @@ ul li {
   color: var(--main-gray);
 }
 
+#name,
+#mail {
+  padding: 10px;
+}
+form input {
+  display: block;
+  margin-bottom: 10px;
+}
+form button {
+  padding: 15px 65px;
+}
 .final__lists ul li {
   margin-bottom: 20px;
   border-bottom: 1px solid var(--main-gray);
@@ -264,12 +280,20 @@ ul li {
 .copyright {
   color: var(--white);
   background-color: var(--black);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 420px) {
   .black__theme {
     display: block;
   }
+
   .graphics__photos {
     display: block;
   }

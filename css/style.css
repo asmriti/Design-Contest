@@ -10,6 +10,8 @@
   padding: 15px;
 }
 
+/* Banner */
+
 a {
   text-decoration: none;
 }
@@ -18,9 +20,14 @@ a:hover {
   color: var(--theme-color);
 }
 
+.key,
+.profile {
+  margin-right: 15px;
+}
+
 .center-button {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 button {
@@ -39,7 +46,7 @@ button:hover {
 
 h1 {
   text-align: center;
-  margin-top: 15px;
+  margin: 70px 0;
   text-transform: uppercase;
   font-weight: normal;
 }
@@ -55,15 +62,15 @@ h3 span {
   color: var(--theme-color);
 }
 
+/* Banner */
+
+/* box-container */
+
 h2 {
   text-align: center;
   margin-top: 30px;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-.paragraph {
-  text-align: center;
-  margin-top: 15px;
 }
 
 h4 {
@@ -72,9 +79,54 @@ h4 {
   margin-top: 15px;
 }
 
-p {
+.paragraph {
   margin-top: 15px;
+  text-align: center;
 }
+
+.services {
+  padding: 25px;
+}
+
+/* .services ul{
+  display: flex;
+  width:100%;
+} */
+
+.services ul,
+.services ul li {
+  margin-top: 20px;
+}
+
+.services ul li {
+  text-align: center;
+}
+
+.services .service__card {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid var(--main-gray);
+}
+
+@media (min-width: 768px) {
+  .services {
+    padding: 50px 0;
+  }
+
+  .services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .services .service__card {
+    width: 49%;
+  }
+}
+
+/* Box-container */
+
+/* Black */
 
 h5 {
   text-transform: uppercase;
@@ -82,13 +134,9 @@ h5 {
   margin-top: 30px;
 }
 
-/* .designs {
-  border: 1px solid var(--main-gray);
-  margin: 10px auto;
-  font-size: large;
-  padding: 30px;
+.text-center {
   text-align: center;
-} */
+}
 
 ul li {
   list-style: none;
@@ -99,31 +147,35 @@ ul li {
   flex-wrap: nowrap;
 }
 
-/* p{
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-}*/
-
-.number li {
+.black__theme {
+  display: inline;
+}
+.numbers-flex-wrapper li {
   color: var(--white);
 }
 
-.number {
-  text-align: center;
+.numbers-flex-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
-.numbers {
+
+.text {
+  margin-top: 15px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
+  text-align: center;
+  color: var(--white);
 }
 
 .contest {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
   margin-top: 20px;
+  color: var(--white);
 }
 
 .black {
@@ -131,42 +183,74 @@ ul li {
   padding: 70px;
 }
 
-.black__theme {
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 768px) {
+  .black__theme ul {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
-.red {
-  text-align: center;
-  margin-bottom: 15px;
+/* Black */
+
+/* Graphics Designing */
+
+.heading {
+  margin-top: 30px;
 }
 
-/* .designs ul{
-  display: flex;
-} */
-
-.red-line {
-  margin-top: 15px;
-}
-
-.class {
-  text-align: center;
-}
-
-.fa-coffee,
-.fa-tv,
-.fa-sticky-note {
+.coffee,
+.tv,
+.sticky-note {
   color: var(--main-gray);
   font-size: 30px;
-  margin-top: 15px;
+  margin: 15px 0;
+}
+
+.icon-heading {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .graphics__unordered {
+    display: flex;
+  }
+
+  .graphics__listing ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .graphics__listing {
+    margin-top: 20px;
+  }
+
+  .graphics__listing ul li div {
+    margin-left: 10px;
+  }
+
+  .icon-paragraph {
+    margin-top: 20px;
+  }
+  .coffee,
+  .tv,
+  .sticky-note {
+    margin: 20px 5px;
+  }
 }
 
 .video-image {
   margin-top: 15px;
   max-width: 100%;
+  padding: 20px;
 }
 
-.graphics__photos {
+/* Graphics designing */
+
+/* Graphics pictures */
+
+.graphics__flex {
   display: flex;
   flex-wrap: wrap;
 }
@@ -180,14 +264,8 @@ ul li {
   background-image: url(../images/testimonial.png);
   padding: 30px;
   margin: 25px;
-
   text-align: center;
 }
-
-/* .testimonial__container {
-  display: flex;
-  flex-wrap: nowrap;
-} */
 
 .writer {
   font-weight: bold;
@@ -209,6 +287,9 @@ ul li {
   display: flex;
   justify-content: space-around;
   margin-top: 50px 0 20px 20px;
+  max-width: 100%;
+}
+img {
   max-width: 100%;
 }
 

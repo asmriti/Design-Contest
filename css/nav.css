@@ -21,8 +21,8 @@
   color: var(--theme-color);
 }
 
-.email-phone-icon,
-.fas {
+.email-icon,
+.phone-icon {
   margin-right: 20px;
 }
 

@@ -1,65 +1,65 @@
 /* Black */
 
 h5 {
-  text-transform: uppercase;
-  font-size: large;
-  margin-top: 30px;
+    text-transform: uppercase;
+    font-size: large;
+    margin-top: 30px;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 ul li {
-  list-style: none;
+    list-style: none;
 }
 
 .graphics__image {
-  display: flex;
-  flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .black__theme {
-  display: inline;
+    display: inline;
 }
 .numbers-flex-wrapper li {
-  color: var(--white);
+    color: var(--white);
 }
 
 .numbers-flex-wrapper {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .text {
-  margin-top: 15px;
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-align: center;
-  color: var(--white);
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--white);
 }
 
 .contest {
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 20px;
-  color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--white);
 }
 
 .black {
-  background-color: var(--black);
-  padding: 70px;
+    background-color: var(--black);
+    padding: 70px;
 }
 
 @media (min-width: 768px) {
-  .black__theme ul {
+    .black__theme ul {
     display: flex;
     justify-content: space-around;
-  }
+    }
 }
 
 /* Black */

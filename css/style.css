@@ -121,72 +121,6 @@ h4 {
 
 /* Box-container */
 
-/* Black */
-
-h5 {
-  text-transform: uppercase;
-  font-size: large;
-  margin-top: 30px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-ul li {
-  list-style: none;
-}
-
-.graphics__image {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.black__theme {
-  display: inline;
-}
-.numbers-flex-wrapper li {
-  color: var(--white);
-}
-
-.numbers-flex-wrapper {
-  display: flex;
-  justify-content: space-around;
-}
-
-.text {
-  margin-top: 15px;
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-align: center;
-  color: var(--white);
-}
-
-.contest {
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 20px;
-  color: var(--white);
-}
-
-.black {
-  background-color: var(--black);
-  padding: 70px;
-}
-
-@media (min-width: 768px) {
-  .black__theme ul {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-/* Black */
-
 /* Graphics Designing */
 
 .heading {
@@ -247,7 +181,6 @@ ul li {
 
 .left-arrow,
 .right-arrow {
-  /* font-size: 30px; */
   background-color: var(--black);
   color: var(--white);
   margin-left: 5px;
@@ -321,11 +254,6 @@ h5 {
   text-align: center;
 }
 
-/* .testimonial__paragraph {
-  display: flex;
-   flex-wrap: wrap; 
-} */
-
 .testimoial__paragraph-theme {
   text-align: center;
 }
@@ -351,6 +279,18 @@ h5 {
   background-color: black;
   color: var(--white);
   padding: 10px;
+}
+
+.fa-star {
+  color: var(--theme-color);
+}
+
+.gray-star {
+  color: var(--main-gray);
+}
+
+.fa-caret-right {
+  color: var(--main-gray);
 }
 
 /* Testimonials */
@@ -392,86 +332,148 @@ h4 {
   padding: 10px;
   width: 100%;
   margin-top: 5px;
+  border: 1px solid var(--main-gray);
 }
 
 .email-button {
   width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--theme-color);
+  border: transparent;
 }
 
 @media (min-width: 768px) {
   .submit {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
-  .submit form {
-    display: flex;
+  .offer form {
+    width: 60%;
   }
 
   .email-button {
-    width: auto;
+    width: 28%;
     text-transform: uppercase;
     background-color: var(--theme-color);
     color: var(--white);
     border-color: transparent;
+    padding: 11px;
   }
 
   .submit form input {
-    width: auto;
-    margin-right: 10px;
+    width: 70%;
+    margin: 0px;
   }
 }
 
-.fa-star {
-  color: var(--theme-color);
+/* Final */
+
+.goto-top-button {
+  text-align: end;
+  border-top: 3px solid var(--theme-color);
 }
 
-.gray-star {
-  color: var(--main-gray);
-}
-
-.fa-caret-right {
-  color: var(--main-gray);
-}
-
-#name,
-#mail {
+.goto-top {
   padding: 10px;
+  background-color: var(--theme-color);
+  color: var(--white);
+  border: transparent;
+  text-align: end;
 }
-form input {
-  display: block;
-  margin-bottom: 10px;
+
+.final__paragraph {
+  margin-bottom: 20px;
 }
-form button {
-  padding: 15px 65px;
+.social-icons {
+  color: var(--main-gray);
 }
+
+.final__iconlinks ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.final__iconlinks ul a:hover {
+  color: var(--white);
+}
+
+.final__iconlinks ul li {
+  padding: 8px 12px;
+  border: 1px solid var(--main-gray);
+  margin-right: 10px;
+}
+
+.final__iconlinks ul li:hover {
+  background-color: var(--theme-color);
+}
+
 .final__lists ul li {
   margin-bottom: 20px;
   border-bottom: 1px solid var(--main-gray);
 }
 
 .final__header {
-  display: inline-block;
+  margin-top: 50px;
 }
 
-.final-container {
-  display: flex;
-  flex-wrap: wrap;
+.final__header ul li span {
+  margin-left: 23px;
 }
-.navmenu__flex {
-  display: flex;
+
+.final__lists ul li {
+  margin-top: 10px;
+}
+
+.final__header ul li a {
+  color: var(--main-gray);
+}
+
+.final__header ul li a:hover {
+  color: var(--theme-color);
+}
+
+.final__header ul li .pointer:hover {
+  color: var(--theme-color);
+}
+
+.final__lists {
+  margin-top: 20px;
+}
+
+.final__header p {
+  margin: 20px 0px;
+}
+
+#name,
+#mail {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  border: 1px solid var(--main-gray);
+}
+
+.sign-in {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--theme-color);
+  border: transparent;
 }
 
 .copyright {
   color: var(--white);
   background-color: var(--black);
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
 }
 
 @media (max-width: 420px) {
